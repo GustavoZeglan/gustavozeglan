@@ -1,0 +1,133 @@
+/*      CELULAR MENOR QUE 360PX     */
+
+@media (max-width:360px){
+    .about .img{
+        width: 340px;
+    }
+  
+    .banner .img{
+        width: 340px;
+    }
+  
+  }  
+
+/*      TABLETS      */
+
+@media ( (min-width:540px) and (max-width:960px) ){
+
+    .banner{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+  
+    .banner-content{
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 0;
+    }
+  
+    .about{
+        margin-top: 20px;
+        flex-direction:row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+  
+    .text{
+        width: 50%;
+    }
+    .img{
+        width: 46%;
+    }
+  
+    svg{
+        display: none;
+    }
+  
+    .about .text{
+        width: 50%;
+    }
+  
+    .about .img{
+        width: 40%;
+    }
+  
+    .about .img img{
+        box-shadow: 0 0 20px #555;
+        margin-top: 0;
+    }
+  
+    .project-content{
+        grid-template-columns:repeat(2,50%);
+    }
+  
+  }
+  
+  /*      DESKTOP      */
+  
+  @media (min-width:961px){
+  
+    h1{
+        font-size: 2.4em;
+    }
+  
+    .banner{
+        height: 100vh;
+    }
+  
+    .banner-content{
+        flex-direction:row;
+        justify-content: space-evenly;
+        align-items:center;
+        padding-bottom: 20%;
+    }
+  
+    .about{
+        flex-direction:row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 30px;
+    }
+  
+    .text{
+        width: 50%;
+    }
+    .img{
+        width: 400px;
+    }
+  
+    .banner .img{
+        width:400px;
+    }
+  
+    .menu{
+        display: none;
+    }
+  
+   .nav{
+        display: block;
+        float: right;
+    }
+  
+    .nav ul li{
+        display: inline-block;
+    }
+  
+    svg{
+        display: block;
+    }
+  
+    .project-content{
+        grid-template-columns: repeat(5,20%);
+    }
+  
+    .projects svg{
+        display: block;
+    }
+  
+    .about .img img{
+        box-shadow: 0 0 20px #555;
+        margin-top: 0;
+    }
+  
+  }

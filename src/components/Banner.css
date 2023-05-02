@@ -1,0 +1,39 @@
+.banner p{
+    font-family: "Quicksand";
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    background-color: #23425f;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    /* height: 80vh; */
+    box-sizing: border-box;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 60px 20px;
+    box-sizing: border-box;
+}
+
+.img{
+    margin-top: 10px;
+    width: 360px;
+}
+
+.img img{
+    width: 100%;
+}
+
+.banner svg{
+    /* display: none; */
+    position: absolute;
+    top: 101%;
+    translate: 0% -100%;
+}

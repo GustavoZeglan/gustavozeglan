@@ -1,0 +1,54 @@
+header{
+    width: 100%;
+    display: inline-block;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    background-color: #23425f;
+    border-bottom:1px solid #bfc5d3;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 2em;
+    color: #00a1ae;
+    font-family: Yrsa;
+    font-weight: 600;
+}
+.menu{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    float: right;
+}
+
+nav{
+    display: none;
+    transition: 0.5;
+}
+
+.show{
+    width: 100%;
+    display: inline-block;
+}
+
+nav ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition:0.3s
+}
