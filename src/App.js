@@ -15,8 +15,8 @@ function App() {
       <BrowserRouter>
         <NavBar/>
         <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='*' element={<Pag404/>}/>
+            <Route path='https://gustavozeglan.vercel.app/' element={<Home/>}/>
+            <Route path='https://gustavozeglan.vercel.app/*' element={<Pag404/>}/>
         </Routes>
       </BrowserRouter>
     </div>
